@@ -16,10 +16,10 @@ function setName(){
         setName();
     }else{
         localStorage.setItem('name', ac);
-        document.querySelector('h1').textContent='Welcome'+ac;
+        document.querySelector('h1').textContent='Welcome, '+ac;
     }
 }
 function setDoge(){
     count=count+1;
-    document.querySelector('#little_bitch').textContent='You have click the doge'+count.toString()+"times";
+    document.querySelector('#little_bitch').textContent='You have click the doge '+count.toString()+' times';
 }
